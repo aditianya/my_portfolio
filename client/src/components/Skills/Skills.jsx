@@ -1,0 +1,11 @@
+import "./Skills.css";
+
+function Skills() {
+  return (
+    <section>
+      <h1>Skills Section</h1>
+    </section>
+  );
+}
+
+export default Skills;
