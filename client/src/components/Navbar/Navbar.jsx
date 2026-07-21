@@ -33,7 +33,7 @@ function Navbar() {
         </a>
 
         <a
-          href="https://linkedin.com/"
+          href="https://www.linkedin.com/in/aditi-maity-621466325/"
           target="_blank"
           rel="noreferrer"
         >
