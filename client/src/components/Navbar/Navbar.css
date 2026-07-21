@@ -1,0 +1,17 @@
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    padding:20px 60px;
+}
+
+ul{
+    display:flex;
+    gap:30px;
+    list-style:none;
+}
+
+li{
+    cursor:pointer;
+}
