@@ -11,7 +11,7 @@ import {
   FaArrowDown
 } from "react-icons/fa";
 
-import myphoto from "../../assets/images/myphoto.png";
+import myphoto from "../../assets/images/myphoto.jpeg";
 import resume from "../../assets/resume/Resume.pdf";
 
 function Hero() {

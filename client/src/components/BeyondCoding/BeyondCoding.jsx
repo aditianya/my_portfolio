@@ -17,12 +17,12 @@ import sports from "../../assets/beyondCoding/sports.png";
 import sports1 from "../../assets/beyondCoding/sports1.png";
 
 const activities = [
-  {
-    title: "Community Service",
-    icon: "🌱",
-    image: ngo,
+   {
+    title: "Awards",
+    icon: "",
+    image: collegeevents2,
     desc:
-      "Conducted interactive educational sessions for school students through Unnati Welfare Society, promoting digital learning and community engagement.",
+      "Awarded for many thing",
   },
   {
     title: "Event Anchoring",
@@ -32,9 +32,16 @@ const activities = [
       "Anchored technical, cultural, and institutional events, strengthening public speaking, leadership, and stage management skills.",
   },
   {
+    title: "Community Service",
+    icon: "🌱",
+    image: ngo,
+    desc:
+      "Conducted interactive educational sessions for school students through Unnati Welfare Society, promoting digital learning and community engagement.",
+  },
+  {
     title: "Campus Events",
     icon: "🎭",
-    image: collegeevents2,collegeevents,collegeevents3,collegeevents4,collegeevents5,collegeevents6,
+    image: collegeevents4,collegeevents2,collegeevents3,collegeevents4,collegeevents5,collegeevents6,
     desc:
       "Actively organized and participated in college events, collaborating with teams to deliver engaging experiences.",
   },
