@@ -1,0 +1,42 @@
+.github-stats{
+    min-height:100vh;
+    padding:100px 8%;
+    background:#050816;
+}
+
+.github-stats h2{
+    color:white;
+    text-align:center;
+    font-size:50px;
+    margin-bottom:60px;
+}
+
+.stats-grid{
+    display:flex;
+    flex-direction:column;
+    gap:30px;
+    align-items:center;
+}
+
+.stats-grid img{
+    width:100%;
+    max-width:850px;
+    border-radius:15px;
+    transition:.3s;
+}
+
+.stats-grid img:hover{
+    transform:scale(1.02);
+}
+
+@media(max-width:768px){
+
+.github-stats{
+    padding:80px 20px;
+}
+
+.github-stats h2{
+    font-size:40px;
+}
+
+}

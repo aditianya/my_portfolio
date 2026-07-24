@@ -21,7 +21,10 @@ function Navbar() {
         <li><a href="#projects">Projects</a></li>
         <li><a href="#experience">Experience</a></li>
         <li><a href="#coding">Coding Profiles</a></li>
+        <li><a href="#dashboard">Developer Dashboard</a></li>
+        <li><a href="#beyond">Beyond Coding</a></li>
         <li><a href="#contact">Contact</a></li>
+        
       </ul>
 
       <div className="social-icons">

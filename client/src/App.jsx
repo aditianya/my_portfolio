@@ -8,6 +8,9 @@ import Projects from "./components/Projects/Projects";
 import Contact from "./components/Contact/Contact";
 import Experience from "./components/Experience/Experience";
 import CodingProfiles from "./components/CodingProfiles/CodingProfiles";
+import DeveloperDashboard from "./components/DeveloperDashboard/DeveloperDashboard";
+import Footer from "./components/Footer/Footer";
+import BeyondCoding from "./components/BeyondCoding/BeyondCoding";
 
 function App() {
   return (
@@ -21,7 +24,10 @@ function App() {
       <Experience /
       >
       <CodingProfiles />
+      <DeveloperDashboard />
+      <BeyondCoding />
       <Contact />
+      <Footer />
     </>
   );
 }

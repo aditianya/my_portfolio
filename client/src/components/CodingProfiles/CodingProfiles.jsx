@@ -5,6 +5,7 @@ import {
   FaLinkedin,
   FaCode,
 } from "react-icons/fa";
+import { SiCodechef, SiLeetcode } from "react-icons/si";
 
 const profiles = [
   {
@@ -15,14 +16,14 @@ const profiles = [
     color: "#ffffff",
   },
   {
-    icon: <FaCode />,
+    icon: <SiLeetcode />,
     title: "LeetCode",
     username: "Solve DSA Problems",
     link: "https://leetcode.com/u/maity_aditi/",
     color: "#FFA116",
   },
   {
-    icon: <FaCode />,
+    icon: <SiCodechef />,
     title: "CodeChef",
     username: "Competitive Programming",
     link: "https://www.codechef.com/users/aditi_maity",
