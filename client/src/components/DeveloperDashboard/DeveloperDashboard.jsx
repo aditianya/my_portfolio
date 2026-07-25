@@ -89,18 +89,6 @@ function DeveloperDashboard() {
 
       </div>
 
-      {/* LeetCode */}
-      <div className="dashboard-card">
-
-        <h3>LeetCode Statistics</h3>
-
-        <img
-          src={`https://leetcard.jacoblin.cool/${leetcode}?theme=dark&font=Karma&ext=contest`}
-          alt="LeetCode Stats"
-        />
-
-      </div>
-
     </section>
   );
 }

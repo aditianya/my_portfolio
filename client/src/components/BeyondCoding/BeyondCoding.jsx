@@ -18,11 +18,11 @@ import sports1 from "../../assets/beyondCoding/sports1.png";
 
 const activities = [
    {
-    title: "Awards",
+    title: "Awards & Recognition",
     icon: "",
     image: collegeevents2,
     desc:
-      "Awarded for many thing",
+      "Recognized for academic excellence, leadership, and active participation in technical, cultural, and institutional events, reflecting a commitment to continuous learning and personal growth.",
   },
   {
     title: "Event Anchoring",

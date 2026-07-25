@@ -1,42 +1,73 @@
 .github-stats{
+
     min-height:100vh;
+
     padding:100px 8%;
-    background:#050816;
+
+    background:var(--bg-color);
+
 }
 
 .github-stats h2{
-    color:white;
+
+    color:var(--text-color);
+
     text-align:center;
+
     font-size:50px;
+
     margin-bottom:60px;
+
 }
 
 .stats-grid{
+
     display:flex;
+
     flex-direction:column;
+
     gap:30px;
+
     align-items:center;
+
 }
 
 .stats-grid img{
+
     width:100%;
+
     max-width:850px;
+
     border-radius:15px;
+
+    border:1px solid var(--border-color);
+
+    box-shadow:var(--shadow);
+
     transition:.3s;
+
 }
 
 .stats-grid img:hover{
+
     transform:scale(1.02);
+
+    box-shadow:0 15px 35px rgba(139,92,246,.25);
+
 }
 
 @media(max-width:768px){
 
 .github-stats{
+
     padding:80px 20px;
+
 }
 
 .github-stats h2{
+
     font-size:40px;
+
 }
 
 }

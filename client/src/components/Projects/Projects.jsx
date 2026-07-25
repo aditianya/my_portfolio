@@ -1,10 +1,14 @@
 import "./Projects.css";
 import { motion } from "framer-motion";
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
+import weather from "../../components/projects/weather.png";
+import travel from "../../components/projects/travel.png";
+import portfolio from "../../components/projects/portfolio.png";
 
 const projects = [
   {
     title: "Personal Portfolio",
+    image: portfolio,
     description:
       "A fully responsive personal portfolio built using React with smooth animations, glassmorphism UI, and a modern developer-friendly design.",
     tech: ["React", "CSS", "Framer Motion"],
@@ -14,6 +18,7 @@ const projects = [
 
   {
     title: "Travel & Tours Website",
+    image: travel,
     description:
       "A responsive travel and tourism website featuring beautiful destinations, tour packages, booking sections, and a modern user interface.",
     tech: ["ReactJS", "Node.js", "PostgreSQL"],
@@ -23,6 +28,7 @@ const projects = [
 
   {
     title: "Weather App",
+    image: weather,
     description:
       "A React-based weather application that displays real-time weather data using the OpenWeather API.",
     tech: ["ReactJS", "API", "Vite"],
@@ -62,9 +68,13 @@ function Projects() {
             transition={{ duration: 0.6, delay: index * 0.15 }}
             viewport={{ once: true }}
           >
-            <div className="project-image">
-              <span>{project.title}</span>
-            </div>
+          <div className="project-image">
+  {project.image ? (
+    <img src={project.image} alt={project.title} />
+  ) : (
+    <span>{project.title}</span>
+  )}
+</div>
 
             <div className="project-content">
               <h3>{project.title}</h3>

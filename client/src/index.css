@@ -1,32 +1,96 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
 
+/* ---------- Light Theme ---------- */
+
+:root{
+
+    --bg-color:#f8fafc;
+    --text-color:#111827;
+
+    --card-bg:#ffffff;
+
+    --navbar-bg:rgba(255,255,255,.8);
+
+    --border-color:rgba(0,0,0,.08);
+
+    --primary:#8b5cf6;
+
+    --secondary-text:#4b5563;
+
+    --shadow:0 10px 30px rgba(0,0,0,.08);
+
+}
+
+/* ---------- Dark Theme ---------- */
+
+[data-theme="dark"]{
+
+    --bg-color:#080808;
+
+    --text-color:#ffffff;
+
+    --card-bg:rgba(255,255,255,.05);
+
+    --navbar-bg:rgba(8,8,8,.8);
+
+    --border-color:rgba(255,255,255,.08);
+
+    --primary:#8b5cf6;
+
+    --secondary-text:#bfbfbf;
+
+    --shadow:0 10px 30px rgba(0,0,0,.35);
+
+}
+
+/* ---------- Global ---------- */
+
 *{
+
     margin:0;
     padding:0;
     box-sizing:border-box;
     font-family:'Poppins',sans-serif;
+
+    transition:
+        background-color .35s ease,
+        color .35s ease,
+        border-color .35s ease;
+
 }
 
 html{
+
     scroll-behavior:smooth;
+
 }
 
 body{
-    background:#080808;
-    color:white;
+
+    background:var(--bg-color);
+
+    color:var(--text-color);
+
     overflow-x:hidden;
+
 }
 
 a{
+
     text-decoration:none;
     color:inherit;
+
 }
 
 li{
+
     list-style:none;
+
 }
 
 img{
+
     max-width:100%;
     display:block;
+
 }

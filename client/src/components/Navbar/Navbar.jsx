@@ -1,8 +1,10 @@
 import "./Navbar.css";
 import { motion } from "framer-motion";
 import { FaGithub, FaLinkedin, FaCode } from "react-icons/fa";
-
+import { useTheme } from "../../context/ThemeContext";
+import { FaMoon, FaSun } from "react-icons/fa";
 function Navbar() {
+  const { theme, toggleTheme } = useTheme();
   return (
     <motion.nav
       className="navbar"
@@ -39,9 +41,9 @@ function Navbar() {
           <FaLinkedin />
         </a>
 
-        <a href="#">
-          <FaCode />
-        </a>
+         <button className="theme-toggle" onClick={toggleTheme}>
+    {theme === "dark" ? <FaSun /> : <FaMoon />}
+  </button>
       </div>
     </motion.nav>
   );
