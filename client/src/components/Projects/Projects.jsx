@@ -1,9 +1,9 @@
 import "./Projects.css";
 import { motion } from "framer-motion";
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
-import weather from "../../components/projects/weather.png";
-import travel from "../../components/projects/travel.png";
-import portfolio from "../../components/projects/portfolio.png";
+import weather from "./weather.png";
+import travel from "./travel.png";
+import portfolio from "./portfolio.png";
 
 const projects = [
   {
