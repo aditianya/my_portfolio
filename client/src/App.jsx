@@ -21,8 +21,7 @@ function App() {
       <Skills />
       <Projects />
       <Achievements />
-      <Experience /
-      >
+      <Experience />
       <CodingProfiles />
       <DeveloperDashboard />
       <BeyondCoding />

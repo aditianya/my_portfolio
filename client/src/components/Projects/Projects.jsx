@@ -13,7 +13,7 @@ const projects = [
       "A fully responsive personal portfolio built using React with smooth animations, glassmorphism UI, and a modern developer-friendly design.",
     tech: ["React", "CSS", "Framer Motion"],
     github: "https://github.com/aditianya/my_portfolio",
-    demo: "#",
+    demo: "https://my-portfolio-weld-rho-cyehl79j1r.vercel.app/",
   },
 
   {
